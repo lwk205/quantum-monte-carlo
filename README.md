@@ -14,7 +14,7 @@
 ## Software
 1. [QMCPACK](https://www.qmcpack.org/)
 1. [CASINO](https://vallico.net/casinoqmc/)
-1. [CHAMP](http://pages.physics.cornell.edu/~cyrus/champ.html), Cornell-Holland Ab-initio Materials Package 
+1. [CHAMP](http://pages.physics.cornell.edu/~cyrus/champ.html)
 1. [QMcBeaver](http://qmcbeaver.sourceforge.net/)
 1. [QWalk](http://qwalk.github.io/mainline/)
 1. [TurboRVB](https://people.sissa.it/~sorella/TurboRVB_Manual/build/html/index.html)
