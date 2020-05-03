@@ -39,7 +39,7 @@
 
 ## Software
 
-### QMCPACK
+### QMCPACK (C++)
 1. [QMCPACK](https://www.qmcpack.org/)’s capabilities include the following:
     * Auxilary Field Monte Carlo
     * Variational Monte Carlo
@@ -70,7 +70,7 @@
 
 
 
-### TurboRVB
+### TurboRVB (Fortran 90)
 
 1. [TurboRVB](https://people.sissa.it/~sorella/TurboRVB_Manual/build/html/index.html) is a computational package for ab initio Quantum Monte Carlo (QMC) simulations of both molecular and bulk electronic systems. The code implements two types of well established QMC algorithms: Variational Monte Carlo (VMC), and Diffusion Monte Carlo in its robust and efficient lattice regularized variant.
 
@@ -86,9 +86,32 @@
     * Assessing the accuracy of the Jastrow antisymmetrized geminal power in the H4 model system, [paper](https://aip.scitation.org/doi/10.1063/1.5081933)
 
 
-### CASINO
+### CASINO (Fortran 2003)
 
-[CASINO](https://vallico.net/casinoqmc/what-is-casino/) is a computer program system for performing quantum Monte Carlo (QMC) electronic structure calculations that has been developed by a group of reseachers initially working in the Theory of Condensed Matter group in the Cambridge University physics department, and their collaborators, over more than 20 years.  It is capable of calculating incredibly accurate solutions to the Schrödinger equation of quantum mechanics for realistic systems built from atoms. This helps us understand and predict the nature of the Universe (as well as, you know, helping us to design drugs and superconductors and write grant applications).  Other highly accurate methods are known that can do this of course, but what makes CASINO important is that – given a big enough computer – it can carry on doing this for systems containing hundreds or even thousands of atoms. These many atoms can form isolated giant molecules or groups of molecules, or they can be the repeating unit in an infinite crystal periodic in one, two, or three dimensions. Because of their inferior scaling with system size, competing methods of comparable accuracy generally struggle to handle more than a few tens of atoms.
+1. [CASINO](https://vallico.net/casinoqmc/what-is-casino/) is a computer program system for performing quantum Monte Carlo (QMC) electronic structure calculations that has been developed by a group of reseachers initially working in the Theory of Condensed Matter group in the Cambridge University physics department, and their collaborators, over more than 20 years.  It is capable of calculating incredibly accurate solutions to the Schrödinger equation of quantum mechanics for realistic systems built from atoms. This helps us understand and predict the nature of the Universe (as well as, you know, helping us to design drugs and superconductors and write grant applications).  Other highly accurate methods are known that can do this of course, but what makes CASINO important is that – given a big enough computer – it can carry on doing this for systems containing hundreds or even thousands of atoms. These many atoms can form isolated giant molecules or groups of molecules, or they can be the repeating unit in an infinite crystal periodic in one, two, or three dimensions. Because of their inferior scaling with system size, competing methods of comparable accuracy generally struggle to handle more than a few tens of atoms.
+
+1. A technical listing of CASINO’s scientific capabilities is as follows:
+    * Variational Monte Carlo. Wave function optimization achieved with variance minimization, accelerated variance minimization, energy minimization, and minimization of the mean absolute deviation of the set of local energies from the median.
+    * Fixed-node/fixed-phase diffusion Monte Carlo (pure or branching)
+    * Reptation Monte Carlo.
+    * Applicable to finite systems such as atoms and molecules and also to systems with periodic boundary conditions in 1, 2 or 3 dimensions (polymers, slabs/surfaces, crystalline solids) with any arbitrary crystal structure.
+    * Capable of using methods – called ‘linear scaling QMC’ in the literature – in which the time to move an electron scales linearly with the system size (but where the time taken to get the energy per simulation cell to a specified error bar in fact scales as the square of the system size. This is still very good compared to high accuracy quantum chemistry methods where the ‘gold standard’ methods scale as N^7).
+    * Can be used with different types of particles (electrons, positrons, ‘holes’, do-it–yourself particles with arbitrary mass and charge..) and combinations of such particles.
+    * Real or complex wave functions
+    * The code may use orbitals expanded in a variety of basis sets in the determinantal part of the many-electron trial wave function.
+    * Uses flexible Slater-Jastrow many-electron wave functions, where the Slater part may consist of multiple determinants.
+    * Support for ‘compressed determinant expansions’, which allow a large reduction in the computational cost of calculations using multi-determinants by using simple algebraic properties of determinants to combine the terms into fewer, more complex objects.
+    * Backflow correlations (also in inhomogeneous systems).
+    * Pairing wave functions and geminals.
+    * CASINO has established  links to various other software  packages via a generic interface for each basis set type.
+    * Non-local pseudopotentials with s, p, d non-locality, and core polarization potentials. Possibility to use Casula non-local scheme.
+    * Computation of ground and excited state energies.
+    * Computation of forces on atoms in VMC or DMC (Gaussian basis sets only).
+    * Coupled DFT-DMC molecular dynamics calculations (with the PWSCF code).
+    * Computation of various expectation values such as pair correlation functions, density matrices, densities and spin densities, localization tensors, dipole moments, momentum density, and structure factors.
+    * Periodic Coulomb interactions computed either with standard Ewald methods or with our MPC (modified periodic Coulomb) interaction which is both faster than the Ewald method and exhibits smaller ‘Coulomb finite-size effects’. Twist averaging. Coulomb finite size effects also computable with alternative structure factor method.
+    * Spin-polarized calculations (e.g., of magnetic solids).
+    * Non-collinear spin systems (for a restricted set of cases
 
 ### [CHAMP](http://pages.physics.cornell.edu/~cyrus/champ.html)
 
