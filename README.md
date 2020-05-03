@@ -9,7 +9,9 @@
 
 1. Quantum Monte Carlo simulations of solids. Rev. Mod. Phys. year **2001**, volume 73, page 33, [PDF](http://altair.physics.ncsu.edu/lubos/papers/revmodphysfinal.pdf)
 
-1. Quantum Monte Carlo for atoms, molecules and solids, Chem. Phys. Lett. volume 478, pages 1–10, year 2009 [link](https://www.sciencedirect.com/science/article/abs/pii/S0009261409008033?via%3Dihub)
+1. Toward the Exact Solution of the Electronic Schrödinger Equation for Noncovalent Molecular Interactions:  Worldwide Distributed Quantum Monte Carlo Calculations, J. Phys. Chem. A, volume 112, pages 2104-2109, year **2008**, [link](https://pubs.acs.org/doi/10.1021/jp077592t)
+
+1. Quantum Monte Carlo for atoms, molecules and solids, Chem. Phys. Lett. volume 478, pages 1–10, year **2009** [link](https://www.sciencedirect.com/science/article/abs/pii/S0009261409008033?via%3Dihub)
 
 1. QWalk: A quantum Monte Carlo program for electronic structure, Journal of Computational Physics, Volume 228, Issue 9, Year **2009**, Pages 3390-3404, [PDF](https://arxiv.org/pdf/0710.4361.pdf)
 
