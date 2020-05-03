@@ -33,7 +33,7 @@
 
 1. TurboRVB: a many-body toolkit for it ab initio electronic simulations by quantum Monte Carlo, **2020**, [PDF](https://arxiv.org/pdf/2002.07401.pdf)
 
-1. Variational and diffusion quantum Monte Carlo calculations with the CASINO code, J. Chem. Phys. volume 152, page 154106 year 2020 [link](https://aip.scitation.org/doi/10.1063/1.5144288)
+1. Variational and diffusion quantum Monte Carlo calculations with the CASINO code, J. Chem. Phys. volume 152, page 154106 year 2020, [link](https://aip.scitation.org/doi/10.1063/1.5144288)
 
 
 
