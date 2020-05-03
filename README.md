@@ -5,6 +5,8 @@
 
 1. Quantum Monte Carlo, [Wikipedia](https://en.wikipedia.org/wiki/Quantum_Monte_Carlo)
 
+2. FreeScience about [Quantum Monte Carlo](http://freescience.info/Physics.php?id=35)
+
 1. Quantum Monte Carlo simulations of solids. Rev. Mod. Phys. year **2001**, volume 73, page 33, [PDF](http://altair.physics.ncsu.edu/lubos/papers/revmodphysfinal.pdf)
 
 1. Quantum Monte Carlo for atoms, molecules and solids, Chem. Phys. Lett. volume 478, pages 1–10, year 2009 [link](https://www.sciencedirect.com/science/article/abs/pii/S0009261409008033?via%3Dihub)
@@ -26,6 +28,8 @@
 1. Quantum Monte Carlo for Noncovalent Interactions: An Efficient Protocol Attaining Benchmark Accuracy, Phys. Chem. Chem. Phys. volume 16, Issue 38, pages 20915-20923, year **2014**, [PDF](https://arxiv.org/pdf/1403.0604.pdf)
 
 1. Quantum Monte Carlo for Noncovalent Interactions: A Tutorial Review, Acta Physica Slovaca Volume 64, Number 5, Pages 501-574, Year **2015**, [paper](https://www.researchgate.net/publication/283051612_Quantum_Monte_Carlo_for_Noncovalent_Interactions_A_Tutorial_Review)
+
+1. Introduction to the variational and diffusion Monte Carlo methods, **2015**, [PDF](https://arxiv.org/pdf/1508.02989.pdf)
 
 1. QMCPACK: an open source ab initio quantum Monte Carlo package for the electronic structure of atoms, molecules and solids, Journal of Physics: Condensed Matter, volume 30, number 19, pages 195901, year **2018**, [link](https://iopscience.iop.org/article/10.1088/1361-648X/aab9c3/meta)
 
