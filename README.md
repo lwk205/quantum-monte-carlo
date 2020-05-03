@@ -86,7 +86,9 @@
     * Assessing the accuracy of the Jastrow antisymmetrized geminal power in the H4 model system, [paper](https://aip.scitation.org/doi/10.1063/1.5081933)
 
 
-### [CASINO](https://vallico.net/casinoqmc/)
+### CASINO
+
+[CASINO](https://vallico.net/casinoqmc/what-is-casino/) is a computer program system for performing quantum Monte Carlo (QMC) electronic structure calculations that has been developed by a group of reseachers initially working in the Theory of Condensed Matter group in the Cambridge University physics department, and their collaborators, over more than 20 years.  It is capable of calculating incredibly accurate solutions to the Schrödinger equation of quantum mechanics for realistic systems built from atoms. This helps us understand and predict the nature of the Universe (as well as, you know, helping us to design drugs and superconductors and write grant applications).  Other highly accurate methods are known that can do this of course, but what makes CASINO important is that – given a big enough computer – it can carry on doing this for systems containing hundreds or even thousands of atoms. These many atoms can form isolated giant molecules or groups of molecules, or they can be the repeating unit in an infinite crystal periodic in one, two, or three dimensions. Because of their inferior scaling with system size, competing methods of comparable accuracy generally struggle to handle more than a few tens of atoms.
 
 ### [CHAMP](http://pages.physics.cornell.edu/~cyrus/champ.html)
 
