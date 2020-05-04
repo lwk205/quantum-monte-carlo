@@ -231,7 +231,7 @@
 
 1. Numerical Integration of Discontinuous Functions in Many Dimensions,  ACM Transactions on Mathematical SoftwareJune, year **2015**, Article No.: 16, [PDF](https://dl.acm.org/doi/pdf/10.1145/2629476)
 
-1. High-dimensional integration:The quasi-Monte Carlo way, Acta Numerica, pages 133–288, year **(2013)**, [PDF](https://web.maths.unsw.edu.au/~z2265001/preprints/DKS2013_Acta_Num_Version.pdf)
+1. High-dimensional integration:The quasi-Monte Carlo way, Acta Numerica, pages 133–288, year **2013**, [PDF](https://web.maths.unsw.edu.au/~z2265001/preprints/DKS2013_Acta_Num_Version.pdf)
 
 1. Monte-CarloandQuasi-Monte-CarloMethodsforNumericalIntegration, [PDF](http://iml.univ-mrs.fr/editions/preprint2001/files/PohangL%20typeset%20[1].pdf)
 
