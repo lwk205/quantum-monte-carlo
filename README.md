@@ -140,7 +140,16 @@
 
 ### [QMcBeaver](http://qmcbeaver.sourceforge.net/)
 
-### [QWalk](http://qwalk.github.io/mainline/)
+### QWalk (C++)
+
+1. [QWalk](http://qwalk.github.io/mainline/) is a program developed to perform high accuracy quantum Monte Carlo calculations of electronic structure in molecules and solids. It is specifically designed as a research vehicle for new algorithms and method developments, as well as being able to scale up to large system sizes.
+
+1. The source code is available on [GitHub/QWalk](https://github.com/QWalk/mainline)
+
+1. The reference paper:
+    * QWalk: A quantum Monte Carlo program for electronic structure, Journal of Computational Physics, Volume 228, Issue 9, Year **2009**, Pages 3390-3404, [PDF](https://arxiv.org/pdf/0710.4361.pdf)
+
+
 
 ### [QMC@HOME](http://qmcathome.org/)
 
