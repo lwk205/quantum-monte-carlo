@@ -235,6 +235,8 @@
 
 1. Monte-CarloandQuasi-Monte-CarloMethodsforNumericalIntegration, [PDF](http://iml.univ-mrs.fr/editions/preprint2001/files/PohangL%20typeset%20[1].pdf)
 
+1. Numerical Recipes, Chapter 7, **2007**, [book](http://numerical.recipes/com/storefront.html)
+
 
 ## Software
 
