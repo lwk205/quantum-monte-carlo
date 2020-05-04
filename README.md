@@ -223,7 +223,7 @@
 
 1. Numerical Recipes, **2007**, [book](https://www.amazon.com/Numerical-Recipes-3rd-Scientific-Computing/dp/0521880688/ref=sr_1_1?dchild=1&keywords=Numerical+Recipes&qid=1588598333&s=books&sr=1-1)
 
-1. Handbook of Computational Methods for Integration, **2004**, [book](https://www.amazon.com/Handbook-Computational-Methods-Integration-Kythe/dp/1584884282)
+1. Handbook of Computational Methods for Integration, **2004**, [book](https://www.amazon.com/Handbook-Computational-Methods-Integration-Kythe/dp/1584884282), [PDF](https://archive.org/details/PremK.KytheMichaelR..Schaferkotter.HandbookOfComputationalMethodsForIntegration/mode/2up)
 
 1. Methods of Numerical Integration, **2007**, [book](https://www.amazon.com/Methods-Numerical-Integration-Mathematics-Rabinowitz/dp/B010WFEN96)
 
