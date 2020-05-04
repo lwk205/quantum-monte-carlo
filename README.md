@@ -211,6 +211,8 @@
 
 # Multidimensional integration
 
+## References
+
 1. Approximating Integrals via Monte Carlo and Deterministic Methods, **2000**, book, [link](https://www.amazon.com/Approximating-Integrals-Monte-Deterministic-Methods/dp/0198502788)
 
 1. Advances in multidimensional integration, Journal of Computational and Applied Mathematics volume 149, pages 1-12, year **2002**, [PDF](https://reader.elsevier.com/reader/sd/pii/S0377042702005174?token=4A513CFDF9233E3157B97A9A243A95C70D6C5977ECD4022134D0F603FD5A83EC977D5A23B44BCDC9FF9CAE3E89BF796B)
@@ -227,7 +229,10 @@
 
 1. Methods of Numerical Integration, **2007**, [book](https://www.amazon.com/Methods-Numerical-Integration-Mathematics-Rabinowitz/dp/B010WFEN96)
 
+1. Numerical Integration of Discontinuous Functions in Many Dimensions,  ACM Transactions on Mathematical SoftwareJune, year **2015**, Article No.: 16, [PDF](https://dl.acm.org/doi/pdf/10.1145/2629476)
 
+
+## Software
 
 1. [cubature](https://github.com/stevengj/cubature) Multi-dimensional adaptive integration in C.
 
@@ -235,3 +240,7 @@
     * Cuba - a library for multidimensional numerical integration, Computer Physics Communications, volume 168, Issue 2, pages 78-95, year **2005**, [link](https://www.sciencedirect.com/science/article/pii/S0010465505000792?via%3Dihub)
     * Concurrent Cuba, Journal of Physics: Conference Series, volume 608, pages 012066, year 2015, [PDF](https://iopscience.iop.org/article/10.1088/1742-6596/608/1/012066/pdf)
     * Concurrent Cuba, Computer Physics Communications, volume 207, pages 341-349, year 2016, [link](https://www.sciencedirect.com/science/article/pii/S001046551630128X?via%3Dihub)
+
+1. [HIntLib](https://github.com/JohannesBuchner/HIntLib) is a C++ library for high-dimensional numerical integration.
+
+1. A C++ header-only, precision-independent library for performing numerical integration, [GitHub](https://github.com/tbs1980/NumericalIntegration)
