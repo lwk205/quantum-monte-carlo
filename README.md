@@ -136,10 +136,6 @@
 1. References to CASINO code:
     * Variational and diffusion quantum Monte Carlo calculations with the CASINO code, J. Chem. Phys. volume 152, page 154106 year 2020 [link](https://aip.scitation.org/doi/10.1063/1.5144288)
 
-### [CHAMP](http://pages.physics.cornell.edu/~cyrus/champ.html)
-
-### [QMcBeaver](http://qmcbeaver.sourceforge.net/)
-
 ### QWalk (C++)
 
 1. [QWalk](http://qwalk.github.io/mainline/) is a program developed to perform high accuracy quantum Monte Carlo calculations of electronic structure in molecules and solids. It is specifically designed as a research vehicle for new algorithms and method developments, as well as being able to scale up to large system sizes.
@@ -149,6 +145,60 @@
 1. The reference paper:
     * QWalk: A quantum Monte Carlo program for electronic structure, Journal of Computational Physics, Volume 228, Issue 9, Year **2009**, Pages 3390-3404, [PDF](https://arxiv.org/pdf/0710.4361.pdf)
 
+### CHAMP (Fortran)
+
+1. [CHAMP](http://pages.physics.cornell.edu/~cyrus/champ.html) is a quantum Monte Carlo suite of programs for electronic structure calculations on a variety of systems (atoms, molecules, clusters, solids and nanostructures) principally written by Cyrus Umrigar and Claudia Filippi with major contributions by Julien Toulouse and Devrim Guclu, postdocs at Cornell and smaller contributions by others. 
+
+1. CHAMP is presently a suite of programs with the following three basic capabilities:
+    * Optimization of many-body wave functions by variance minimization (FIT)
+    * Optimization of many-body wave functions by any linear combination of energy and variance minimization (VMC)
+    * Metropolis or Variational Monte Carlo (VMC)
+    * Diffusion Monte Carlo (DMC)
+
+1. In each case, the very best quantum Monte carlo algorithms have been used. A great deal of attention has been paid to the implementation of highly efficient algorithms, a variety of sophisticated wave functions, and tools to optimize them, with particular emphasis on all-electron and pseudopotential finite systems. For such systems, the code can also compute forces on the nuclei, a necessary precursor of molecular dynamics calculations. There are both serial and parallel (MPI) versions of the codes. 
+
+1. Particularly noteworthy features of CHAMP are:
+    * Efficient wave function optimization by linear combination of energy and variance minimization
+    * A variety of sophisticated forms of the Jastrow factor
+    * An accelerated Metropolis method
+    * Efficient diffusion Monte Carlo algorithms
+    * Numerical forces on nuclei for finite systems
+
+### QMcBeaver (C++)
+
+1. [QMcBeaver](http://qmcbeaver.sourceforge.net/) is about 72000 lines of an open source, ANSI compliant, object-oriented (C++) program to perform Quantum Monte Car lo calculations on atoms and molecules. From the start, our goals have been for our code to be licensed using GPL, legible, modular, and modifiable. 
+
+1. Here are a few of the specific capabilities and features of QMcBeaver code:
+    * An efficient initialization routine (Initialization, see publications).
+    * An efficient statistical decorrelation method (Dynamic Distributable Decorrelation Algorithm (DDDA), see publications).
+    * An efficient parallelization method (Manager-Worker Parallelization, see publications).
+    * The ability to run on a GPU (experimental stage, see publications).
+    * We use various 2 and 3 particle Jastrow functions, including those recommended here.
+    * The cusp replacement algorithm recommended here
+    * Psuedopotentials (VMC works, but I haven't stabilized DMC)
+    * Analytic first derivatives with respect to all Jastrow parameters, CI coefficients, and MO coefficients.
+    * The optimization algorithm recommended here. We have several other optimization routines coded too.
+    * The DMC algorithm recommended here.
+    * The future walking method recommended here.
+    * The atomic force method recommended here.
+    * A system to checkpoint calculations.
+    * We've spent quite a bit of effort optimizing the important parts of the code. This statement is almost meaningless however since we have no performance comparisons with other QMC codes.
+    * The code has been extensively (and recently) tested with mpicc, gcc, Intel's icc, AIX, Tru64 compilers, and we've played around with a couple others including Cray, Irix, PGI, etc.
+    * Our code works well with LAMPI, OpenMPI, and MPICH 2, and we get very efficient scaling for 100 to 1000 processors, especially given our efficient initialization scheme.
+    * It was designed to be used with LAPACK, GotoBLAS, ATLAS, linking directly to Fortran. Interfaces for HDF5 and SPRNG have also been programmed, but we don't typically use them.
+    * We scripts to grab wavefunctions from Jaguar and GAMESS
+    * We provide a couple of scripts to visualize Jastrows & optimization convergence, and QMC run convergence. 
+
+1. The source code is available on [sourceforge](https://sourceforge.net/projects/qmcbeaver/)
+
+
+### mVMC (C)
+1. The [mVMC](https://www.pasums.issp.u-tokyo.ac.jp/mvmc/en/) is a low-energy solver for a wide ranger of quantum lattice models (multi-orbital Hubbard model, Heisenberg model, Kondo-lattice model) by using variational Monte Carlo method. User can obtain high-accuracy wave functions for ground states of above models. Users flexibly choose the correlation factors in wavefunctions such as Gutzwiller, Jastrow, and doublon-holon binding factors and optimize more the ten thousand variational parameters. It is also possible to obtain the low-energy excited states by specifying the quantum number using the quantum number projection.
+
+1. The reference paper fo mVMC is:
+    * mVMC—Open-source software for many-variable variational Monte Carlo method, Computer Physics Communications, Volume 235, year **2019**, Pages 447-462, [link](https://www.sciencedirect.com/science/article/pii/S0010465518303102), [PDF](https://reader.elsevier.com/reader/sd/pii/S0010465518303102?token=D4B2D52E09A374EDB74E07E125CD44183DB38AAE03D87FF91211E61BD6AE8A7892FD36F0FA44FF52CFF47BC693E269BB)
+    
+1. The source code avalilable on [GitHub](https://github.com/issp-center-dev/mVMC).
 
 
 ### [QMC@HOME](http://qmcathome.org/)
