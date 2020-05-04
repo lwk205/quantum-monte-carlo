@@ -209,3 +209,14 @@
 ### [QMC@HOME](http://qmcathome.org/)
 
 
+# Multidimensional integration
+
+1. Approximating Integrals via Monte Carlo and Deterministic Methods, **2000**, book, [link](https://www.amazon.com/Approximating-Integrals-Monte-Deterministic-Methods/dp/0198502788)
+
+1. Advances in multidimensional integration, Journal of Computational and Applied Mathematics volume 149, pages 1-12, year **2002**, [PDF](https://reader.elsevier.com/reader/sd/pii/S0377042702005174?token=4A513CFDF9233E3157B97A9A243A95C70D6C5977ECD4022134D0F603FD5A83EC977D5A23B44BCDC9FF9CAE3E89BF796B)
+
+1. Multidimensional integration throughMarkovian sampling under steered functionmorphing: a physical guise from statisticalmechanics, Computer Physics Communications, volume 195, pages 129-139 **2015**, [PDF](https://arxiv.org/pdf/1410.2810.pdf)
+
+1. Multi-dimensional adaptive integration (cubature) in C, [GitHub](https://github.com/stevengj/cubature) 
+
+1. 
