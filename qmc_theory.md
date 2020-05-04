@@ -16,10 +16,6 @@
 
 ## Articles
 
-1. Quantum Monte Carlo, [Wikipedia](https://en.wikipedia.org/wiki/Quantum_Monte_Carlo)
-
-2. FreeScience about [Quantum Monte Carlo](http://freescience.info/Physics.php?id=35)
-
 1. Quantum Monte Carlo simulations of solids. Rev. Mod. Phys. year **2001**, volume 73, page 33, [PDF](http://altair.physics.ncsu.edu/lubos/papers/revmodphysfinal.pdf)
 
 1. Toward the Exact Solution of the Electronic Schrödinger Equation for Noncovalent Molecular Interactions:  Worldwide Distributed Quantum Monte Carlo Calculations, J. Phys. Chem. A, volume 112, pages 2104-2109, year **2008**, [link](https://pubs.acs.org/doi/10.1021/jp077592t)
@@ -54,8 +50,7 @@
 
 1. Variational and diffusion quantum Monte Carlo calculations with the CASINO code, J. Chem. Phys. volume 152, page 154106, year 2020, [link](https://aip.scitation.org/doi/10.1063/1.5144288)
 
-
-
+1. FreeScience about [Quantum Monte Carlo](http://freescience.info/Physics.php?id=35)
 
 
 
