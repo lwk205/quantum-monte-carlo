@@ -200,6 +200,11 @@
     
 1. The source code avalilable on [GitHub](https://github.com/issp-center-dev/mVMC).
 
+### QmcMol (Fortran 77, Fortran 95)
+
+[QmcMol](https://www.lct.jussieu.fr/pagesperso/assaraf/qmcmol/qmcmol/index.html) a Quantum Monte-Carlo Program for Molecules 
+
+
 
 ### [QMC@HOME](http://qmcathome.org/)
 
