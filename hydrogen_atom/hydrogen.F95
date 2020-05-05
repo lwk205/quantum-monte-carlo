@@ -36,10 +36,10 @@ program HMC
 use position
 ! 
 implicit none
-integer,parameter :: NXFA1=59,NXFA2=59
+integer,parameter :: NXFA1=4,NXFA2=4
 ! Number MC steps
-integer,parameter :: MCPRE = 1000
-integer,parameter :: MCMAX = 1000
+integer,parameter :: MCPRE = 10000
+integer,parameter :: MCMAX = 1000000
 real(dp)  :: STEPMAX,ALPHA,DALPHA,ALPHA0,ALPHA1
 real(dp)  :: WAVEC,DWAVEC,WAVEC0,WAVEC1
 real(dp)  :: RDIF,QUOT,LOCEN
@@ -61,15 +61,16 @@ DRHO = 0.01_dp
 ! Start data:
 lnxfa1:do n1 = 1,NXFA1+1
 lnxfa2:do n2 = 1,NXFA2+1
+print *, 'n1= ', n1, ' n2= ', n2
 COUNTU = 0
 COUNTD = 0
 ! Wave function coefficients, 0<ALPHA<=2., -1.<=WAVEC<=2.
-ALPHA0=0.1_dp
-ALPHA1=1.9_dp
-WAVEC0=-0.8_dp
-WAVEC1=+1.0_dp
-DALPHA=(ALPHA1-ALPHA0)/DBLE(NXFA1+1)
-DWAVEC=(WAVEC1-WAVEC0)/DBLE(NXFA2+1)
+ALPHA0=0.8_dp
+ALPHA1=1.2_dp
+WAVEC0=-0.2_dp
+WAVEC1=+0.2_dp
+DALPHA=(ALPHA1-ALPHA0)/DBLE(NXFA1)
+DWAVEC=(WAVEC1-WAVEC0)/DBLE(NXFA2)
 ALPHA=ALPHA0+(n1-1)*DALPHA
 WAVEC=WAVEC0 + (n2-1)*DWAVEC
 call random_seed()
@@ -210,7 +211,7 @@ end do
 close(35)
 close(38)
 close(39)
-25 format(1x,2f7.3,e12.4)
+25 format(1x,2f7.3,e16.8)
 35 format(1x,a,i11,a,f7.3,a)
 end
 !
