@@ -18,8 +18,7 @@ subroutine DENSITY1D
 ! to first unit and those above NRHO*DRHO added to last unit.
 integer :: j
 real(kind=dp) :: s,h
-!real(kind=dp),  parameter :: PI  = 4 * atan (1.0)
-real(kind=dp),  parameter :: PI  = 3.1415
+real(kind=dp),  parameter :: PI  = 3.1415927410125732_dp
 RHORAD=0.0
 h=4.0_dp*PI*DRHO
 s=max (sqrt(sum (RNEU(1:3)**2)),DRHO+EMACH)
