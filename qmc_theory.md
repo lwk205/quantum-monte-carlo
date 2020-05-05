@@ -20,13 +20,11 @@
 
 1. Toward the Exact Solution of the Electronic Schrödinger Equation for Noncovalent Molecular Interactions:  Worldwide Distributed Quantum Monte Carlo Calculations, J. Phys. Chem. A, volume 112, pages 2104-2109, year **2008**, [link](https://pubs.acs.org/doi/10.1021/jp077592t)
 
-1. Quantum Monte Carlo for atoms, molecules and solids, Chem. Phys. Lett. volume 478, pages 1–10, year **2009** [link](https://www.sciencedirect.com/science/article/abs/pii/S0009261409008033?via%3Dihub)
+1. Quantum Monte Carlo for atoms, molecules and solids, Chem. Phys. Lett. volume 478, pages 1–10, year **2009**, [link](https://www.sciencedirect.com/science/article/abs/pii/S0009261409008033?via%3Dihub)
 
 1. QWalk: A quantum Monte Carlo program for electronic structure, Journal of Computational Physics, Volume 228, Issue 9, Year **2009**, Pages 3390-3404, [PDF](https://arxiv.org/pdf/0710.4361.pdf)
 
 1. Continuum variational and diffusion quantum Monte Carlo calculations, **2009**, [PDF](https://casinoqmc.net/papers/qmc_review.pdf)
-
-1. Continuum variational and diffusion quantum Monte Carlo calculations, **2009**, [PDF](https://casinoqmc.net/papers/towler_review.pdf)
 
 1. Applications of quantum Monte Carlo methods in condensed systems, **2010**, [PDF](https://arxiv.org/pdf/1010.4992.pdf)
 
@@ -38,7 +36,7 @@
 
 1. Quantum Monte Carlo for Noncovalent Interactions: An Efficient Protocol Attaining Benchmark Accuracy, Phys. Chem. Chem. Phys. volume 16, Issue 38, pages 20915-20923, year **2014**, [PDF](https://arxiv.org/pdf/1403.0604.pdf)
 
-1. Quantum Monte Carlo for Noncovalent Interactions: A Tutorial Review, Acta Physica Slovaca Volume 64, Number 5, Pages 501-574, Year **2015**, [paper](https://www.researchgate.net/publication/283051612_Quantum_Monte_Carlo_for_Noncovalent_Interactions_A_Tutorial_Review)
+1. Quantum Monte Carlo for Noncovalent Interactions: A Tutorial Review, Acta Physica Slovaca Volume 64, Number 5, Pages 501-574, Year **2015**, [link](https://www.researchgate.net/publication/283051612_Quantum_Monte_Carlo_for_Noncovalent_Interactions_A_Tutorial_Review)
 
 1. Introduction to the variational and diffusion Monte Carlo methods, **2015**, [PDF](https://arxiv.org/pdf/1508.02989.pdf)
 
@@ -48,7 +46,7 @@
 
 1. TurboRVB: a many-body toolkit for it ab initio electronic simulations by quantum Monte Carlo, **2020**, [PDF](https://arxiv.org/pdf/2002.07401.pdf)
 
-1. Variational and diffusion quantum Monte Carlo calculations with the CASINO code, J. Chem. Phys. volume 152, page 154106, year 2020, [link](https://aip.scitation.org/doi/10.1063/1.5144288)
+1. Variational and diffusion quantum Monte Carlo calculations with the CASINO code, J. Chem. Phys. volume 152, page 154106, year **2020**, [link](https://aip.scitation.org/doi/10.1063/1.5144288)
 
 1. FreeScience about [Quantum Monte Carlo](http://freescience.info/Physics.php?id=35)
 
