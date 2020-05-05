@@ -48,7 +48,7 @@ real(dp)  :: ERWEN,VAREN,ERWKIN,VARKIN,ERWPOT,VARPOT
 real(dp)  :: RAD1,RAD2,RADNEU,EK,EP
 logical   :: MCSCHRITT
 ! Local variables
-integer  :: ix,ih,n1,n2,n3
+integer  :: ix,n1,n2,n3
 integer  :: COUNTD,COUNTU,MCOUNT
 real(dp) :: rannumb
 real(dp),dimension(NXFA2+1) :: work1,work2
