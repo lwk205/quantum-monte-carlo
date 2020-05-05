@@ -40,6 +40,8 @@
 
 1. Quantum Monte Carlo for Noncovalent Interactions: An Efficient Protocol Attaining Benchmark Accuracy, Phys. Chem. Chem. Phys. volume 16, Issue 38, pages 20915-20923, year **2014**, [PDF](https://arxiv.org/pdf/1403.0604.pdf)
 
+1. First Principles Methods: A Perspective from Quantum Monte Carlo , Entropy, volume 16(1), pages 287-321, year 2014, [PDF](https://www.mdpi.com/1099-4300/16/1/287/htm)
+
 1. Quantum Monte Carlo for Noncovalent Interactions: A Tutorial Review, Acta Physica Slovaca Volume 64, Number 5, Pages 501-574, Year **2015**, [link](https://www.researchgate.net/publication/283051612_Quantum_Monte_Carlo_for_Noncovalent_Interactions_A_Tutorial_Review)
 
 1. Introduction to the variational and diffusion Monte Carlo methods, **2015**, [PDF](https://arxiv.org/pdf/1508.02989.pdf)
@@ -48,9 +50,13 @@
 
 1. mVMC—Open-source software for many-variable variational Monte Carlo method, Computer Physics Communications, Volume 235, year **2019**, Pages 447-462, [link](https://www.sciencedirect.com/science/article/pii/S0010465518303102)
 
+1. The HANDE-QMC Project: Open-Source Stochastic Quantum Chemistry from the Ground State Up, J. Chem. Theory Comput., volume 15, NUmber 3, pages 1728-1742, year **2019**, [link](https://pubs.acs.org/doi/10.1021/acs.jctc.8b01217), [PDF](https://arxiv.org/pdf/1811.11679.pdf), [code](https://github.com/hande-qmc/hande)
+
 1. TurboRVB: a many-body toolkit for it ab initio electronic simulations by quantum Monte Carlo, **2020**, [PDF](https://arxiv.org/pdf/2002.07401.pdf)
 
 1. Variational and diffusion quantum Monte Carlo calculations with the CASINO code, J. Chem. Phys. volume 152, page 154106, year **2020**, [link](https://aip.scitation.org/doi/10.1063/1.5144288)
+
+1. Quantum Monte Carlo, or, how to solve the many-particle Schr ̈odinger equationaccurately whilst retaining favourable scaling with system size, **20xx**, [PDF](http://if.pw.edu.pl/~zberecki/KMS/towler_review.pdf)
 
 1. FreeScience about [Quantum Monte Carlo](http://freescience.info/Physics.php?id=35)
 
