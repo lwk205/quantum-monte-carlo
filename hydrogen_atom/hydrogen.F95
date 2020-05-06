@@ -35,10 +35,10 @@ program HMC
     use position
     !
     implicit none
-    integer,parameter :: NXFA1=5,NXFA2=5
+    integer,parameter :: NXFA1=3,NXFA2=3
     ! Number MC steps
     integer,parameter :: MCPRE = 10000
-    integer,parameter :: MCMAX = 100000
+    integer,parameter :: MCMAX = 1000000
     real(kind=dp)  :: STEPMAX,ALPHA,DALPHA,ALPHA0,ALPHA1
     real(kind=dp)  :: WAVEC,DWAVEC,WAVEC0,WAVEC1
     real(kind=dp)  :: RDIF,QUOT,LOCEN
@@ -50,11 +50,13 @@ program HMC
     integer  :: COUNTD,COUNTU,MCOUNT
     real(kind=dp) :: rannumb
     real(kind=dp),dimension(NXFA2+1) :: work1,work2
+    character(len=30) :: AVRHORAD_FILE
     !
     ! Control output
     open(unit=35,FILE="MC21.OUT",STATUS="UNKNOWN")
     open(unit=38,FILE="Hmcvar_splot21.dat",STATUS="UNKNOWN")
     open(unit=39,FILE="Hmcerw_splot21.dat",STATUS="UNKNOWN")
+
 
     DRHO = 0.01_dp
     ! Start data:
@@ -83,7 +85,7 @@ program HMC
             RE(3)=0.1_dp
             RNEU = RE
             !Maximum step width, KONTUZ: check with acceptance ratio!
-            STEPMAX = 2.D-0/(1.D0+ALPHA)
+            STEPMAX = 2.0_dp/(1.0_dp+ALPHA)
             !Counts the acceptance number
             MCOUNT = 0
             !Observables
@@ -112,7 +114,7 @@ program HMC
                 QUOT=((1.0_dp+WAVEC*RAD2)/(1.0_dp+WAVEC*RAD1))**2*DEXP(-2.0_dp*ALPHA*(RAD2-RAD1))
                 !Test on acceptance
                 if (QUOT < 1) THEN
-                   call RANDOM_NUMBER(rannumb)
+                    call RANDOM_NUMBER(rannumb)
                     MCSCHRITT = dble(rannumb) < QUOT
                 else
                     MCSCHRITT = .TRUE.
@@ -199,6 +201,14 @@ program HMC
             write(35,*)'ERWEN = ',ERWEN,' VAREN = ',VAREN
             write(35,*)
             write(35,*)
+
+            write(AVRHORAD_FILE,'("AVRHORAD_",i0,"_",i0,".dat")') n1, n2
+            print *, AVRHORAD_FILE
+            open(unit=47,FILE=AVRHORAD_FILE,STATUS="UNKNOWN")
+            do n3=1,NRHO
+                write(47,*) n3,AVRHORAD(n3)
+            end do
+            close(47)
         end do lnxfa2
         do n3=1,NXFA2+1
             ! Cut-off variance above 0.01 because data plot
@@ -208,9 +218,7 @@ program HMC
             write(39,25) ALPHA,WAVEC0 + (n3-1)*DWAVEC,work2(n3)
         end do
     end do lnxfa1
-    do n3=1,NRHO
-        write(47,*) n3,AVRHORAD(n3)
-    end do
+
     close(35)
     close(38)
     close(39)
