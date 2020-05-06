@@ -38,7 +38,7 @@ program HMC
     integer,parameter :: NXFA1=3,NXFA2=3
     ! Number MC steps
     integer,parameter :: MCPRE = 10000
-    integer,parameter :: MCMAX = 1000000
+    integer,parameter :: MCMAX = 100000000
     real(kind=dp)  :: STEPMAX,ALPHA,DALPHA,ALPHA0,ALPHA1
     real(kind=dp)  :: WAVEC,DWAVEC,WAVEC0,WAVEC1
     real(kind=dp)  :: RDIF,QUOT,LOCEN

@@ -1,0 +1,4 @@
+
+
+plot "AVRHORAD_2_2.dat" every ::1::200 using 1:2 with lines title 'MCMAX=10^5'
+
