@@ -35,18 +35,28 @@ program HMC
     use position
     !
     implicit none
-    integer,parameter :: NXFA1=3,NXFA2=3
-    ! Number MC steps
-    integer,parameter :: MCPRE = 10000
-    integer,parameter :: MCMAX = 10000
+
+    ! Number of division of parameter APLHA
+    integer, parameter :: NALPHA = 1
+
+    ! Number of division of parameter WAVEC
+    integer, parameter :: NWAVEC = 1
+
+    ! Number Monte Carlo steps in termalization
+    integer, parameter :: MCPRE = 1000
+
+    ! Number Monte Carlo steps after termalization (i.e. calculations)
+    integer, parameter :: MCMAX = 10000
 
     ! Wave function coefficients: ALPHA0 <= alpha <= ALPHA1
-    real(kind=dp), parameter :: ALPHA0=0.8_dp
-    real(kind=dp), parameter :: ALPHA1=1.2_dp
+    real(kind=dp), parameter :: ALPHA0 = 0.8_dp
+    real(kind=dp), parameter :: ALPHA1 = 1.2_dp
 
     ! Wave function coefficients: WAVEC0 <= c <= WAVEC1
-    real(kind=dp), parameter :: WAVEC0=-0.2_dp
-    real(kind=dp), parameter :: WAVEC1=+0.2_dp
+    real(kind=dp), parameter :: WAVEC0 = -0.2_dp
+    real(kind=dp), parameter :: WAVEC1 = +0.2_dp
+
+    real(kind=dp) :: DUMMY
 
     !
     real(kind=dp)  :: STEPMAX,ALPHA,DALPHA
@@ -66,20 +76,42 @@ program HMC
     open(unit=38,FILE="Hmcvar_splot21.dat",STATUS="UNKNOWN")
     open(unit=39,FILE="Hmcerw_splot21.dat",STATUS="UNKNOWN")
 
+    if (NALPHA == 1) then
+        DALPHA = 0.0_dp
+    else
+        DUMMY = DBLE(NALPHA - 1)
+        DALPHA = (ALPHA1 - ALPHA0) / DUMMY
+    end if
+
+    if (NWAVEC == 1) then
+        DWAVEC = 0.0_dp
+    else
+        DUMMY = DBLE(NWAVEC - 1)
+        DWAVEC = (WAVEC1 - WAVEC0) / DUMMY
+    end if
 
 
     DRHO = 0.01_dp
     ! Start data:
-    lnxfa1:do n1 = 1,NXFA1
-        lnxfa2:do n2 = 1,NXFA2
+    lnxfa1:do n1 = 1,NALPHA
+        lnxfa2:do n2 = 1,NWAVEC
 
             COUNTU = 0
             COUNTD = 0
 
-            DALPHA=(ALPHA1-ALPHA0)/DBLE(NXFA1-1)
-            DWAVEC=(WAVEC1-WAVEC0)/DBLE(NXFA2-1)
-            ALPHA=ALPHA0+(n1-1)*DALPHA
-            WAVEC=WAVEC0 + (n2-1)*DWAVEC
+
+            if (NALPHA == 1) then
+                ALPHA = 0.5_dp * (ALPHA0 + ALPHA1)
+            else
+                ALPHA = ALPHA0 + (n1 - 1) * DALPHA
+            end if
+
+            if (NWAVEC == 1) then
+                WAVEC = 0.5_dp * (WAVEC0 + WAVEC1)
+            else
+                WAVEC = WAVEC0 + (n2 - 1) * DWAVEC
+            end if
+
             !
             print "(a, i3, a, i3)", 'n1= ', n1, ' n2= ', n2
             ! print "(a, f6.3, a, f6.3)", 'ALPHA= ', ALPHA, ' WAVEC= ', WAVEC
