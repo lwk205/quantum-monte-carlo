@@ -1,99 +1,275 @@
  STEPMAX =    1.1111111111111112     
- prerun: MCPRE=       10000  acc. ratio =    72.750000000000000       % 
- main run: MCMAX=       10000 acc. ratio =  72.020 % 
- downhill steps, towards higher probability,COUNTS in %= ’   35.909999999999997       % 
- uphill steps, towards lower probability,COUNTS in %=    36.109999999999999       % 
+ prerun: MCPRE=        1000  acc. ratio =    70.500000000000000       % 
+ main run: MCMAX=       10000 acc. ratio =  73.220 % 
+ downhill steps, towards higher probability,COUNTS in %= ’   36.979999999999997       % 
+ uphill steps, towards lower probability,COUNTS in %=    36.240000000000002       % 
  ALPHA =   0.80000000000000004       WAVEC =  -0.20000000000000001     
- energy+0.5*ALPHA**2 =  -0.17272844719424163     
- ERWKIN =   0.55273997239124406      ERWPOT =   -1.0454684195854849     
- ERWEN =  -0.49272844719424169       VAREN =    2.1512188024599655E-003
+ energy+0.5*ALPHA**2 =  -0.17373586635922189     
+ ERWKIN =   0.56329663262392715      ERWPOT =   -1.0570324989831443     
+ ERWEN =  -0.49373586635922195       VAREN =    2.6514823915626427E-003
 
 
  STEPMAX =    1.1111111111111112     
- prerun: MCPRE=       10000  acc. ratio =    79.859999999999999       % 
- main run: MCMAX=       10000 acc. ratio =  79.380 % 
- downhill steps, towards higher probability,COUNTS in %= ’   39.880000000000003       % 
- uphill steps, towards lower probability,COUNTS in %=    39.500000000000000       % 
+ prerun: MCPRE=        1000  acc. ratio =    77.799999999999997       % 
+ main run: MCMAX=       10000 acc. ratio =  75.600 % 
+ downhill steps, towards higher probability,COUNTS in %= ’   37.609999999999999       % 
+ uphill steps, towards lower probability,COUNTS in %=    37.990000000000002       % 
+ ALPHA =   0.80000000000000004       WAVEC =  -0.10000000000000001     
+ energy+0.5*ALPHA**2 =  -0.17692795254421512     
+ ERWKIN =   0.42134252054311722      ERWPOT =  -0.91827047308733423     
+ ERWEN =  -0.49692795254421518       VAREN =    5.8403081662359250E-003
+
+
+ STEPMAX =    1.1111111111111112     
+ prerun: MCPRE=        1000  acc. ratio =    78.200000000000003       % 
+ main run: MCMAX=       10000 acc. ratio =  79.770 % 
+ downhill steps, towards higher probability,COUNTS in %= ’   40.060000000000002       % 
+ uphill steps, towards lower probability,COUNTS in %=    39.710000000000001       % 
  ALPHA =   0.80000000000000004       WAVEC =    0.0000000000000000E+000
- energy+0.5*ALPHA**2 =  -0.16586620692395526     
- ERWKIN =   0.34346482769582037      ERWPOT =  -0.82933103461977642     
- ERWEN =  -0.48586620692395532       VAREN =    2.7631583264794524E-002
+ energy+0.5*ALPHA**2 =  -0.15581345690079357     
+ ERWKIN =   0.30325382760317215      ERWPOT =  -0.77906728450397000     
+ ERWEN =  -0.47581345690079363       VAREN =    1.8235888605268685E-002
 
 
  STEPMAX =    1.1111111111111112     
- prerun: MCPRE=       10000  acc. ratio =    82.180000000000007       % 
- main run: MCMAX=       10000 acc. ratio =  83.410 % 
- downhill steps, towards higher probability,COUNTS in %= ’   41.859999999999999       % 
- uphill steps, towards lower probability,COUNTS in %=    41.549999999999997       % 
+ prerun: MCPRE=        1000  acc. ratio =    81.500000000000000       % 
+ main run: MCMAX=       10000 acc. ratio =  80.560 % 
+ downhill steps, towards higher probability,COUNTS in %= ’   40.090000000000003       % 
+ uphill steps, towards lower probability,COUNTS in %=    40.469999999999999       % 
+ ALPHA =   0.80000000000000004       WAVEC =   0.10000000000000003     
+ energy+0.5*ALPHA**2 =  -0.15604464466130613     
+ ERWKIN =   0.29748047090917867      ERWPOT =  -0.77352511557048553     
+ ERWEN =  -0.47604464466130619       VAREN =    4.5231924198476860E-002
+
+
+ STEPMAX =    1.1111111111111112     
+ prerun: MCPRE=        1000  acc. ratio =    82.200000000000003       % 
+ main run: MCMAX=       10000 acc. ratio =  82.500 % 
+ downhill steps, towards higher probability,COUNTS in %= ’   41.280000000000001       % 
+ uphill steps, towards lower probability,COUNTS in %=    41.219999999999999       % 
  ALPHA =   0.80000000000000004       WAVEC =   0.20000000000000001     
- energy+0.5*ALPHA**2 =  -0.10182973556614028     
- ERWKIN =   0.18183812747547917      ERWPOT =  -0.60366786304161302     
- ERWEN =  -0.42182973556614034       VAREN =    4.7837156901088619E-002
+ energy+0.5*ALPHA**2 =  -0.13215334576437859     
+ ERWKIN =   0.23713571247792817      ERWPOT =  -0.68928905824230713     
+ ERWEN =  -0.45215334576437866       VAREN =   0.10468466875718802     
+
+
+ STEPMAX =    1.0526315789473684     
+ prerun: MCPRE=        1000  acc. ratio =    72.299999999999997       % 
+ main run: MCMAX=       10000 acc. ratio =  71.920 % 
+ downhill steps, towards higher probability,COUNTS in %= ’   36.359999999999999       % 
+ uphill steps, towards lower probability,COUNTS in %=    35.560000000000002       % 
+ ALPHA =   0.90000000000000002       WAVEC =  -0.20000000000000001     
+ energy+0.5*ALPHA**2 =   -8.0290357351252784E-002
+ ERWKIN =   0.68673764180818841      ERWPOT =   -1.1720279991594487     
+ ERWEN =  -0.48529035735125281       VAREN =    1.9076137036065095E-002
+
+
+ STEPMAX =    1.0526315789473684     
+ prerun: MCPRE=        1000  acc. ratio =    74.200000000000003       % 
+ main run: MCMAX=       10000 acc. ratio =  74.970 % 
+ downhill steps, towards higher probability,COUNTS in %= ’   37.490000000000002       % 
+ uphill steps, towards lower probability,COUNTS in %=    37.479999999999997       % 
+ ALPHA =   0.90000000000000002       WAVEC =  -0.10000000000000001     
+ energy+0.5*ALPHA**2 =   -9.3799138392919756E-002
+ ERWKIN =   0.53101091749860041      ERWPOT =   -1.0298100558915231     
+ ERWEN =  -0.49879913839291978       VAREN =    8.7244060963475581E-005
+
+
+ STEPMAX =    1.0526315789473684     
+ prerun: MCPRE=        1000  acc. ratio =    79.700000000000003       % 
+ main run: MCMAX=       10000 acc. ratio =  78.540 % 
+ downhill steps, towards higher probability,COUNTS in %= ’   39.159999999999997       % 
+ uphill steps, towards lower probability,COUNTS in %=    39.380000000000003       % 
+ ALPHA =   0.90000000000000002       WAVEC =    0.0000000000000000E+000
+ energy+0.5*ALPHA**2 =   -9.3063147826139780E-002
+ ERWKIN =   0.43256833043528659      ERWPOT =  -0.93063147826142312     
+ ERWEN =  -0.49806314782613981       VAREN =    8.3500728722942907E-003
+
+
+ STEPMAX =    1.0526315789473684     
+ prerun: MCPRE=        1000  acc. ratio =    80.400000000000006       % 
+ main run: MCMAX=       10000 acc. ratio =  80.290 % 
+ downhill steps, towards higher probability,COUNTS in %= ’   40.460000000000001       % 
+ uphill steps, towards lower probability,COUNTS in %=    39.829999999999998       % 
+ ALPHA =   0.90000000000000002       WAVEC =   0.10000000000000003     
+ energy+0.5*ALPHA**2 =   -8.0367578104119930E-002
+ ERWKIN =   0.34217546987050579      ERWPOT =  -0.82754304797462674     
+ ERWEN =  -0.48536757810411996       VAREN =    2.2295415365412369E-002
+
+
+ STEPMAX =    1.0526315789473684     
+ prerun: MCPRE=        1000  acc. ratio =    80.700000000000003       % 
+ main run: MCMAX=       10000 acc. ratio =  81.090 % 
+ downhill steps, towards higher probability,COUNTS in %= ’   40.880000000000003       % 
+ uphill steps, towards lower probability,COUNTS in %=    40.210000000000001       % 
+ ALPHA =   0.90000000000000002       WAVEC =   0.20000000000000001     
+ energy+0.5*ALPHA**2 =   -7.0818176805167610E-002
+ ERWKIN =   0.30462217069802161      ERWPOT =  -0.78044034750319446     
+ ERWEN =  -0.47581817680516764       VAREN =    4.0754143352007735E-002
 
 
  STEPMAX =    1.0000000000000000     
- prerun: MCPRE=       10000  acc. ratio =    71.040000000000006       % 
- main run: MCMAX=       10000 acc. ratio =  71.670 % 
- downhill steps, towards higher probability,COUNTS in %= ’   35.700000000000003       % 
- uphill steps, towards lower probability,COUNTS in %=    35.969999999999999       % 
+ prerun: MCPRE=        1000  acc. ratio =    69.900000000000006       % 
+ main run: MCMAX=       10000 acc. ratio =  71.750 % 
+ downhill steps, towards higher probability,COUNTS in %= ’   35.939999999999998       % 
+ uphill steps, towards lower probability,COUNTS in %=    35.810000000000002       % 
  ALPHA =    1.0000000000000000       WAVEC =  -0.20000000000000001     
- energy+0.5*ALPHA**2 =    2.4091406021154393E-002
- ERWKIN =   0.73730944824165578      ERWPOT =   -1.2132180422204983     
- ERWEN =  -0.47590859397884561       VAREN =    6.3999166551552772E-002
+ energy+0.5*ALPHA**2 =    2.3013741849752800E-002
+ ERWKIN =   0.72599519532220269      ERWPOT =   -1.2029814534724443     
+ ERWEN =  -0.47698625815024720       VAREN =    6.0574490819902890E-002
 
 
  STEPMAX =    1.0000000000000000     
- prerun: MCPRE=       10000  acc. ratio =    76.450000000000003       % 
- main run: MCMAX=       10000 acc. ratio =  77.190 % 
- downhill steps, towards higher probability,COUNTS in %= ’   38.500000000000000       % 
- uphill steps, towards lower probability,COUNTS in %=    38.689999999999998       % 
+ prerun: MCPRE=        1000  acc. ratio =    74.200000000000003       % 
+ main run: MCMAX=       10000 acc. ratio =  74.710 % 
+ downhill steps, towards higher probability,COUNTS in %= ’   37.159999999999997       % 
+ uphill steps, towards lower probability,COUNTS in %=    37.549999999999997       % 
+ ALPHA =    1.0000000000000000       WAVEC =  -0.10000000000000001     
+ energy+0.5*ALPHA**2 =    4.2850439077414815E-003
+ ERWKIN =   0.59603958448780059      ERWPOT =   -1.0917545405800608     
+ ERWEN =  -0.49571495609225852       VAREN =    1.0033636051159943E-002
+
+
+ STEPMAX =    1.0000000000000000     
+ prerun: MCPRE=        1000  acc. ratio =    77.799999999999997       % 
+ main run: MCMAX=       10000 acc. ratio =  75.870 % 
+ downhill steps, towards higher probability,COUNTS in %= ’   38.390000000000001       % 
+ uphill steps, towards lower probability,COUNTS in %=    37.479999999999997       % 
  ALPHA =    1.0000000000000000       WAVEC =    0.0000000000000000E+000
  energy+0.5*ALPHA**2 =    0.0000000000000000E+000
- ERWKIN =   0.42475424305065096      ERWPOT =  -0.92475424305064857     
+ ERWKIN =   0.50259078014837111      ERWPOT =   -1.0025907801483693     
  ERWEN =  -0.50000000000000000       VAREN =    0.0000000000000000E+000
 
 
  STEPMAX =    1.0000000000000000     
- prerun: MCPRE=       10000  acc. ratio =    79.870000000000005       % 
- main run: MCMAX=       10000 acc. ratio =  80.330 % 
- downhill steps, towards higher probability,COUNTS in %= ’   40.140000000000001       % 
- uphill steps, towards lower probability,COUNTS in %=    40.189999999999998       % 
+ prerun: MCPRE=        1000  acc. ratio =    78.799999999999997       % 
+ main run: MCMAX=       10000 acc. ratio =  78.680 % 
+ downhill steps, towards higher probability,COUNTS in %= ’   39.539999999999999       % 
+ uphill steps, towards lower probability,COUNTS in %=    39.140000000000001       % 
+ ALPHA =    1.0000000000000000       WAVEC =   0.10000000000000003     
+ energy+0.5*ALPHA**2 =    4.3679881183561475E-003
+ ERWKIN =   0.41027155617944489      ERWPOT =  -0.90590356806108563     
+ ERWEN =  -0.49563201188164385       VAREN =    5.7198596702124930E-003
+
+
+ STEPMAX =    1.0000000000000000     
+ prerun: MCPRE=        1000  acc. ratio =    80.099999999999994       % 
+ main run: MCMAX=       10000 acc. ratio =  79.990 % 
+ downhill steps, towards higher probability,COUNTS in %= ’   40.399999999999999       % 
+ uphill steps, towards lower probability,COUNTS in %=    39.590000000000003       % 
  ALPHA =    1.0000000000000000       WAVEC =   0.20000000000000001     
- energy+0.5*ALPHA**2 =    2.7597475296797236E-003
- ERWKIN =   0.40803211870617279      ERWPOT =  -0.90527237117649328     
- ERWEN =  -0.49724025247032028       VAREN =    2.3937892034886769E-002
+ energy+0.5*ALPHA**2 =    1.3402812317239499E-002
+ ERWKIN =   0.34247719257458625      ERWPOT =  -0.82907438025734770     
+ ERWEN =  -0.48659718768276050       VAREN =   0.12238010944472727     
+
+
+ STEPMAX =   0.95238095238095233     
+ prerun: MCPRE=        1000  acc. ratio =    65.700000000000003       % 
+ main run: MCMAX=       10000 acc. ratio =  70.220 % 
+ downhill steps, towards higher probability,COUNTS in %= ’   35.119999999999997       % 
+ uphill steps, towards lower probability,COUNTS in %=    35.100000000000001       % 
+ ALPHA =    1.1000000000000001       WAVEC =  -0.20000000000000001     
+ energy+0.5*ALPHA**2 =   0.15046514087106533     
+ ERWKIN =   0.85722701318634242      ERWPOT =   -1.3117618723152755     
+ ERWEN =  -0.45453485912893477       VAREN =   0.13442030406259486     
+
+
+ STEPMAX =   0.95238095238095233     
+ prerun: MCPRE=        1000  acc. ratio =    71.700000000000003       % 
+ main run: MCMAX=       10000 acc. ratio =  72.590 % 
+ downhill steps, towards higher probability,COUNTS in %= ’   36.280000000000001       % 
+ uphill steps, towards lower probability,COUNTS in %=    36.310000000000002       % 
+ ALPHA =    1.1000000000000001       WAVEC =  -0.10000000000000001     
+ energy+0.5*ALPHA**2 =   0.13276573095419941     
+ ERWKIN =   0.76497425971921362      ERWPOT =   -1.2372085287650103     
+ ERWEN =  -0.47223426904580068       VAREN =    4.7523111277235734E-002
+
+
+ STEPMAX =   0.95238095238095233     
+ prerun: MCPRE=        1000  acc. ratio =    76.099999999999994       % 
+ main run: MCMAX=       10000 acc. ratio =  77.330 % 
+ downhill steps, towards higher probability,COUNTS in %= ’   38.210000000000001       % 
+ uphill steps, towards lower probability,COUNTS in %=    39.119999999999997       % 
+ ALPHA =    1.1000000000000001       WAVEC =    0.0000000000000000E+000
+ energy+0.5*ALPHA**2 =   0.10775292238470591     
+ ERWKIN =   0.58028214623178132      ERWPOT =   -1.0775292238470813     
+ ERWEN =  -0.49724707761529419       VAREN =    7.6046685698194826E-003
+
+
+ STEPMAX =   0.95238095238095233     
+ prerun: MCPRE=        1000  acc. ratio =    76.299999999999997       % 
+ main run: MCMAX=       10000 acc. ratio =  77.310 % 
+ downhill steps, towards higher probability,COUNTS in %= ’   38.729999999999997       % 
+ uphill steps, towards lower probability,COUNTS in %=    38.579999999999998       % 
+ ALPHA =    1.1000000000000001       WAVEC =   0.10000000000000003     
+ energy+0.5*ALPHA**2 =   0.10552645813290989     
+ ERWKIN =   0.55396856027635655      ERWPOT =   -1.0534421021434541     
+ ERWEN =  -0.49947354186709020       VAREN =    5.4449974691437424E-005
+
+
+ STEPMAX =   0.95238095238095233     
+ prerun: MCPRE=        1000  acc. ratio =    78.299999999999997       % 
+ main run: MCMAX=       10000 acc. ratio =  78.540 % 
+ downhill steps, towards higher probability,COUNTS in %= ’   38.689999999999998       % 
+ uphill steps, towards lower probability,COUNTS in %=    39.850000000000001       % 
+ ALPHA =    1.1000000000000001       WAVEC =   0.20000000000000001     
+ energy+0.5*ALPHA**2 =   0.10338722468783357     
+ ERWKIN =   0.47995735352645691      ERWPOT =  -0.98157012883862360     
+ ERWEN =  -0.50161277531216653       VAREN =    1.9716886266918806E-002
 
 
  STEPMAX =   0.90909090909090906     
- prerun: MCPRE=       10000  acc. ratio =    69.950000000000003       % 
- main run: MCMAX=       10000 acc. ratio =  69.460 % 
- downhill steps, towards higher probability,COUNTS in %= ’   34.759999999999998       % 
- uphill steps, towards lower probability,COUNTS in %=    34.700000000000003       % 
+ prerun: MCPRE=        1000  acc. ratio =    68.900000000000006       % 
+ main run: MCMAX=       10000 acc. ratio =  69.800 % 
+ downhill steps, towards higher probability,COUNTS in %= ’   34.820000000000000       % 
+ uphill steps, towards lower probability,COUNTS in %=    34.979999999999997       % 
  ALPHA =    1.2000000000000000       WAVEC =  -0.20000000000000001     
- energy+0.5*ALPHA**2 =   0.36910330367162125     
- ERWKIN =    1.2043064023872332      ERWPOT =   -1.5552030987156138     
- ERWEN =  -0.35089669632837872       VAREN =   0.38547690184163186     
+ energy+0.5*ALPHA**2 =   0.31214582610523117     
+ ERWKIN =    1.0220735691245466      ERWPOT =   -1.4299277430193151     
+ ERWEN =  -0.40785417389476880       VAREN =   0.39221217090016225     
 
 
  STEPMAX =   0.90909090909090906     
- prerun: MCPRE=       10000  acc. ratio =    75.420000000000002       % 
- main run: MCMAX=       10000 acc. ratio =  74.530 % 
- downhill steps, towards higher probability,COUNTS in %= ’   37.130000000000003       % 
- uphill steps, towards lower probability,COUNTS in %=    37.399999999999999       % 
+ prerun: MCPRE=        1000  acc. ratio =    72.000000000000000       % 
+ main run: MCMAX=       10000 acc. ratio =  71.790 % 
+ downhill steps, towards higher probability,COUNTS in %= ’   35.759999999999998       % 
+ uphill steps, towards lower probability,COUNTS in %=    36.030000000000001       % 
+ ALPHA =    1.2000000000000000       WAVEC =  -0.10000000000000001     
+ energy+0.5*ALPHA**2 =   0.27244417924173314     
+ ERWKIN =   0.87686141152171615      ERWPOT =   -1.3244172322799681     
+ ERWEN =  -0.44755582075826683       VAREN =   0.16162031294674042     
+
+
+ STEPMAX =   0.90909090909090906     
+ prerun: MCPRE=        1000  acc. ratio =    77.099999999999994       % 
+ main run: MCMAX=       10000 acc. ratio =  75.670 % 
+ downhill steps, towards higher probability,COUNTS in %= ’   38.180000000000000       % 
+ uphill steps, towards lower probability,COUNTS in %=    37.490000000000002       % 
  ALPHA =    1.2000000000000000       WAVEC =    0.0000000000000000E+000
- energy+0.5*ALPHA**2 =   0.24888114908539721     
- ERWKIN =   0.77328689451238475      ERWPOT =   -1.2444057454269921     
- ERWEN =  -0.47111885091460276       VAREN =    6.7929086873687927E-002
+ energy+0.5*ALPHA**2 =   0.23885343662231467     
+ ERWKIN =   0.71312061973388663      ERWPOT =   -1.1942671831115685     
+ ERWEN =  -0.48114656337768530       VAREN =    4.9199054795965556E-002
 
 
  STEPMAX =   0.90909090909090906     
- prerun: MCPRE=       10000  acc. ratio =    77.730000000000004       % 
- main run: MCMAX=       10000 acc. ratio =  77.840 % 
- downhill steps, towards higher probability,COUNTS in %= ’   39.039999999999999       % 
- uphill steps, towards lower probability,COUNTS in %=    38.799999999999997       % 
+ prerun: MCPRE=        1000  acc. ratio =    77.799999999999997       % 
+ main run: MCMAX=       10000 acc. ratio =  76.200 % 
+ downhill steps, towards higher probability,COUNTS in %= ’   37.950000000000003       % 
+ uphill steps, towards lower probability,COUNTS in %=    38.250000000000000       % 
+ ALPHA =    1.2000000000000000       WAVEC =   0.10000000000000003     
+ energy+0.5*ALPHA**2 =   0.23666381258758851     
+ ERWKIN =   0.71776386010305693      ERWPOT =   -1.2011000475154709     
+ ERWEN =  -0.48333618741241147       VAREN =    1.1109985259567310E-002
+
+
+ STEPMAX =   0.90909090909090906     
+ prerun: MCPRE=        1000  acc. ratio =    77.700000000000003       % 
+ main run: MCMAX=       10000 acc. ratio =  76.970 % 
+ downhill steps, towards higher probability,COUNTS in %= ’   37.920000000000002       % 
+ uphill steps, towards lower probability,COUNTS in %=    39.049999999999997       % 
  ALPHA =    1.2000000000000000       WAVEC =   0.20000000000000001     
- energy+0.5*ALPHA**2 =   0.21905538292273830     
- ERWKIN =   0.48323757263409833      ERWPOT =  -0.98418218971135429     
- ERWEN =  -0.50094461707726168       VAREN =    6.8939225133571227E-004
+ energy+0.5*ALPHA**2 =   0.22321881458334009     
+ ERWKIN =   0.61364715519665591      ERWPOT =   -1.1104283406133184     
+ ERWEN =  -0.49678118541665989       VAREN =    6.2245343625314095E-004
 
 
