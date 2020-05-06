@@ -132,6 +132,16 @@
 
 1. The source code is available on [sourceforge](https://sourceforge.net/projects/qmcbeaver/)
 
+## QIRM
+
+1. The program package [QIRM](http://www.itap.uni-kiel.de/theo-physik/schattke/qirm/index.html), "Quantum Monte Carlo for Inhomogeneous Real Materials", was written by Robert Bahnsen and Wolfgang Schattke at the Institut für Theoretische Physik und Astrophysik of CAU Kiel with several collaborators.
+
+1. QIRM calculates the total energy of atoms, bulk solids and solid surfaces with the Variational quantum Monte Carlo (VMC) method as the expectation value of the exact many-body Hamiltonian with full Coulomb interactions. To obtain the ground state of a given system the optimal variational parameters in the corresponding many-particle wave function are determined according to Ritz' Variational principle. The high-dimensional integration is performed stochastically by the Metropolis algorithm.
+
+1. The program has been applied to the atomic and bulk ground state of Li and GaAs, to different models of the (110) surface of GaAs, to long-wavelength optical phonons in GaAs, and to electron-phonon coupling in GaAs.
+
+1. The program is written in Fortran and was tested on different unix platforms and network topologies. It can be used in sequential mode as well as in a highly scalable parallel version based on MPI. The package is still under construction.
+
 
 ## mVMC (C)
 1. The [mVMC](https://www.pasums.issp.u-tokyo.ac.jp/mvmc/en/) is a low-energy solver for a wide ranger of quantum lattice models (multi-orbital Hubbard model, Heisenberg model, Kondo-lattice model) by using variational Monte Carlo method. User can obtain high-accuracy wave functions for ground states of above models. Users flexibly choose the correlation factors in wavefunctions such as Gutzwiller, Jastrow, and doublon-holon binding factors and optimize more the ten thousand variational parameters. It is also possible to obtain the low-energy excited states by specifying the quantum number using the quantum number projection.
