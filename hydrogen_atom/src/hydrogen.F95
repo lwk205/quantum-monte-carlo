@@ -38,9 +38,19 @@ program HMC
     integer,parameter :: NXFA1=3,NXFA2=3
     ! Number MC steps
     integer,parameter :: MCPRE = 10000
-    integer,parameter :: MCMAX = 1000000
-    real(kind=dp)  :: STEPMAX,ALPHA,DALPHA,ALPHA0,ALPHA1
-    real(kind=dp)  :: WAVEC,DWAVEC,WAVEC0,WAVEC1
+    integer,parameter :: MCMAX = 10000
+
+    ! Wave function coefficients: ALPHA0 <= alpha <= ALPHA1
+    real(kind=dp), parameter :: ALPHA0=0.8_dp
+    real(kind=dp), parameter :: ALPHA1=1.2_dp
+
+    ! Wave function coefficients: WAVEC0 <= c <= WAVEC1
+    real(kind=dp), parameter :: WAVEC0=-0.2_dp
+    real(kind=dp), parameter :: WAVEC1=+0.2_dp
+
+    !
+    real(kind=dp)  :: STEPMAX,ALPHA,DALPHA
+    real(kind=dp)  :: WAVEC,DWAVEC
     real(kind=dp)  :: RDIF,QUOT,LOCEN
     real(kind=dp)  :: ERWEN,VAREN,ERWKIN,VARKIN,ERWPOT,VARPOT
     real(kind=dp)  :: RAD1,RAD2,RADNEU,EK,EP
@@ -57,6 +67,7 @@ program HMC
     open(unit=39,FILE="Hmcerw_splot21.dat",STATUS="UNKNOWN")
 
 
+
     DRHO = 0.01_dp
     ! Start data:
     lnxfa1:do n1 = 1,NXFA1
@@ -64,11 +75,7 @@ program HMC
 
             COUNTU = 0
             COUNTD = 0
-            ! Wave function coefficients, 0<ALPHA<=2., -1.<=WAVEC<=2.
-            ALPHA0=0.8_dp
-            ALPHA1=1.2_dp
-            WAVEC0=-0.2_dp
-            WAVEC1=+0.2_dp
+
             DALPHA=(ALPHA1-ALPHA0)/DBLE(NXFA1-1)
             DWAVEC=(WAVEC1-WAVEC0)/DBLE(NXFA2-1)
             ALPHA=ALPHA0+(n1-1)*DALPHA
