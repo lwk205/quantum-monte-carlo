@@ -35,10 +35,10 @@ program HMC
     use position
     !
     implicit none
-    integer,parameter :: NXFA1=4,NXFA2=4
+    integer,parameter :: NXFA1=5,NXFA2=5
     ! Number MC steps
     integer,parameter :: MCPRE = 10000
-    integer,parameter :: MCMAX = 1000000
+    integer,parameter :: MCMAX = 100000
     real(kind=dp)  :: STEPMAX,ALPHA,DALPHA,ALPHA0,ALPHA1
     real(kind=dp)  :: WAVEC,DWAVEC,WAVEC0,WAVEC1
     real(kind=dp)  :: RDIF,QUOT,LOCEN
@@ -58,9 +58,9 @@ program HMC
 
     DRHO = 0.01_dp
     ! Start data:
-    lnxfa1:do n1 = 1,NXFA1+1
-        lnxfa2:do n2 = 1,NXFA2+1
-            print *, 'n1= ', n1, ' n2= ', n2
+    lnxfa1:do n1 = 1,NXFA1
+        lnxfa2:do n2 = 1,NXFA2
+
             COUNTU = 0
             COUNTD = 0
             ! Wave function coefficients, 0<ALPHA<=2., -1.<=WAVEC<=2.
@@ -68,10 +68,14 @@ program HMC
             ALPHA1=1.2_dp
             WAVEC0=-0.2_dp
             WAVEC1=+0.2_dp
-            DALPHA=(ALPHA1-ALPHA0)/DBLE(NXFA1)
-            DWAVEC=(WAVEC1-WAVEC0)/DBLE(NXFA2)
+            DALPHA=(ALPHA1-ALPHA0)/DBLE(NXFA1-1)
+            DWAVEC=(WAVEC1-WAVEC0)/DBLE(NXFA2-1)
             ALPHA=ALPHA0+(n1-1)*DALPHA
             WAVEC=WAVEC0 + (n2-1)*DWAVEC
+            !
+            print "(a, i3, a, i3)", 'n1= ', n1, ' n2= ', n2
+            ! print "(a, f6.3, a, f6.3)", 'ALPHA= ', ALPHA, ' WAVEC= ', WAVEC
+            !
             call random_seed()
             ! Initial electron position
             RE(1)=0.1_dp
