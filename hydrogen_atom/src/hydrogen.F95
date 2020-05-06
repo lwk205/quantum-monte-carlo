@@ -37,16 +37,16 @@ program HMC
     implicit none
 
     ! Number of division of parameter APLHA
-    integer, parameter :: NALPHA = 1
+    integer, parameter :: NALPHA = 5
 
     ! Number of division of parameter WAVEC
-    integer, parameter :: NWAVEC = 1
+    integer, parameter :: NWAVEC = 5
 
     ! Number Monte Carlo steps in termalization
     integer, parameter :: MCPRE = 1000
 
     ! Number Monte Carlo steps after termalization (i.e. calculations)
-    integer, parameter :: MCMAX = 10000
+    integer, parameter :: MCMAX = 10000000
 
     ! Wave function coefficients: ALPHA0 <= alpha <= ALPHA1
     real(kind=dp), parameter :: ALPHA0 = 0.8_dp
@@ -113,8 +113,8 @@ program HMC
             end if
 
             !
-            print "(a, i3, a, i3)", 'n1= ', n1, ' n2= ', n2
-            ! print "(a, f6.3, a, f6.3)", 'ALPHA= ', ALPHA, ' WAVEC= ', WAVEC
+            ! print "(a, i3, a, i3)", 'n1= ', n1, ' n2= ', n2
+            print "(a, f6.3, a, f6.3)", 'ALPHA= ', ALPHA, ' WAVEC= ', WAVEC
             !
             call random_seed()
             ! Initial electron position
@@ -216,6 +216,7 @@ program HMC
                     EP = -1.0_dp/RADNEU
                     LOCEN = EK + EP
                 end if
+                !print *, LOCEN
                 ! ERWKIN and ERWPOT miss the correction close to the nucleus
                 ERWKIN = dble(IMC-1)/dble(IMC)*ERWKIN +EK/dble(IMC)
                 ERWPOT = dble(IMC-1)/dble(IMC)*ERWPOT +EP/dble(IMC)
@@ -241,12 +242,12 @@ program HMC
             write(38,25) ALPHA,WAVEC,VAREN
             write(39,25) ALPHA,WAVEC,ERWEN
 
-            write(AVRHORAD_FILE,'("AVRHORAD_",i0,"_",i0,".dat")') n1, n2
-            open(unit=47,FILE=AVRHORAD_FILE,STATUS="UNKNOWN")
-            do n3=1,NRHO
-                write(47,*) n3,AVRHORAD(n3)
-            end do
-            close(47)
+!            write(AVRHORAD_FILE,'("AVRHORAD_",i0,"_",i0,".dat")') n1, n2
+!            open(unit=47,FILE=AVRHORAD_FILE,STATUS="UNKNOWN")
+!            do n3=1,NRHO
+!                write(47,*) n3,AVRHORAD(n3)
+!            end do
+!            close(47)
         end do lnxfa2
     end do lnxfa1
 
