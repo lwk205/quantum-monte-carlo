@@ -58,11 +58,44 @@ program HMC
 
     real(kind=dp) :: DUMMY
 
+    ! The local energy
+    real(kind=dp)  :: LOCEN
+
+    ! The expectation value of total energy
+    real(kind=dp)  :: ERWEN
+
+    ! The expectation value of kinetic energy
+    real(kind=dp)  :: ERWKIN
+
+    ! The expectation value of potential energy
+    real(kind=dp)  :: ERWPOT
+
+    ! The variance of total energy
+    real(kind=dp)  :: VAREN
+
+    ! The variance of potential energy
+    real(kind=dp)  :: VARPOT
+
+    ! The variance of kinetic energy
+    real(kind=dp)  :: VARKIN
+
+    ! The parameter of wave function: alpha
+    real(kind=dp)  :: ALPHA
+
+    ! The change in the alpha parameter of wave function
+    real(kind=dp)  :: DALPHA
+
+    ! The parameter of wave function: c
+    real(kind=dp)  :: WAVEC
+
+    ! The change in the c parameter of wave function
+    real(kind=dp)  :: DWAVEC
+
+    ! The maximum step width
+    real(kind=dp)  :: STEPMAX
+
     !
-    real(kind=dp)  :: STEPMAX,ALPHA,DALPHA
-    real(kind=dp)  :: WAVEC,DWAVEC
-    real(kind=dp)  :: RDIF,QUOT,LOCEN
-    real(kind=dp)  :: ERWEN,VAREN,ERWKIN,VARKIN,ERWPOT,VARPOT
+    real(kind=dp)  :: RDIF,QUOT
     real(kind=dp)  :: RAD1,RAD2,RADNEU,EK,EP
     logical   :: MCSCHRITT
     ! Local variables
