@@ -8,7 +8,7 @@
 
 1. The Wigner Monte-Carlo Method for Nanoelectronic Devices: A Particle Description of Quantum Transport and Decoherence, **2010**, [book](https://www.amazon.com/Wigner-Monte-Method-Nanoelectronic-Devices/dp/1848211503)
 
-1. Quantum Monte Carlo Programming: For Atoms, Molecules, Clusters, and Solids, **2013**, [book](https://onlinelibrary.wiley.com/doi/book/10.1002/9783527676729)
+1. Quantum Monte Carlo Programming: For Atoms, Molecules, Clusters, and Solids, **2013**, [book](https://onlinelibrary.wiley.com/doi/book/10.1002/9783527676729), [book and source code](https://www.wiley.com/en-gb/Quantum+Monte+Carlo+Programming%3A+For+Atoms%2C+Molecules%2C+Clusters%2C+and+Solids-p-9783527408511)
 
 1. Computational Materials Science: From Ab Initio to Monte Carlo Methods, **2018**, [book](https://www.amazon.com/Computational-Materials-Science-Initio-Methods-ebook/dp/B07CCGJRXQ/ref=sr_1_fkmr0_1?dchild=1&keywords=Monte+Carlo+Methods+In+Ab+Initio+Quantum+Chemistry&qid=1588263518&s=books&sr=1-1-fkmr0)
 
