@@ -38,7 +38,7 @@ program HMC
     integer,parameter :: NXFA1=3,NXFA2=3
     ! Number MC steps
     integer,parameter :: MCPRE = 10000
-    integer,parameter :: MCMAX = 100000000
+    integer,parameter :: MCMAX = 1000000
     real(kind=dp)  :: STEPMAX,ALPHA,DALPHA,ALPHA0,ALPHA1
     real(kind=dp)  :: WAVEC,DWAVEC,WAVEC0,WAVEC1
     real(kind=dp)  :: RDIF,QUOT,LOCEN
@@ -49,7 +49,6 @@ program HMC
     integer  :: ix,n1,n2,n3
     integer  :: COUNTD,COUNTU,MCOUNT
     real(kind=dp) :: rannumb
-    real(kind=dp),dimension(NXFA2+1) :: work1,work2
     character(len=30) :: AVRHORAD_FILE
     !
     ! Control output
@@ -190,8 +189,6 @@ program HMC
                     VAREN = dble(IMC-1)/dble(IMC)*VAREN + 1/dble(IMC-1)*(ERWEN-LOCEN)**2
                 end if
             end do lrun
-            work1(n2) = VAREN
-            work2(n2) = ERWEN
             write(35,35)'main run: MCMAX= ',MCMAX,' acc. ratio = ',100.*dble(MCOUNT)/dble(MCMAX),' % '
             write(35,*)'downhill steps, towards higher probability,COUNTS in %= ’',100.D0*COUNTD/dble(MCMAX),' % '
             write(35,*)'uphill steps, towards lower probability,COUNTS in %= ',100.D0*COUNTU/dble(MCMAX),' % '
@@ -202,21 +199,16 @@ program HMC
             write(35,*)
             write(35,*)
 
+            write(38,25) ALPHA,WAVEC,VAREN
+            write(39,25) ALPHA,WAVEC,ERWEN
+
             write(AVRHORAD_FILE,'("AVRHORAD_",i0,"_",i0,".dat")') n1, n2
-            print *, AVRHORAD_FILE
             open(unit=47,FILE=AVRHORAD_FILE,STATUS="UNKNOWN")
             do n3=1,NRHO
                 write(47,*) n3,AVRHORAD(n3)
             end do
             close(47)
         end do lnxfa2
-        do n3=1,NXFA2+1
-            ! Cut-off variance above 0.01 because data plot
-            ! gets too large spread in z-values
-            if (work1(n3) .GT. 0.01) work1(n3) = 0.05
-            write(38,25) ALPHA,WAVEC0 + (n3-1)*DWAVEC,work1(n3)
-            write(39,25) ALPHA,WAVEC0 + (n3-1)*DWAVEC,work2(n3)
-        end do
     end do lnxfa1
 
     close(35)
