@@ -91,7 +91,10 @@ program HMC
     ! The change in the c parameter of wave function
     real(kind=dp)  :: DWAVEC
 
-    ! The maximum step width
+    ! The maximum step width STEPMAX is an important and sensitive parameter,
+    ! especially in the case of an atom where the position space is not bounded. Though
+    ! a length scale is given by the decay parameter ALPHA and a natural choice would
+    ! be 1/ALPHA, it is advisable to test a set of values to observe the behavior with STEPMAX.
     real(kind=dp)  :: STEPMAX
 
     !
