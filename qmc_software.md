@@ -142,8 +142,15 @@
 
 1. The program is written in Fortran and was tested on different unix platforms and network topologies. It can be used in sequential mode as well as in a highly scalable parallel version based on MPI. The package is still under construction. 
 
+## VQMCMolecule (C++)
 
-## QuantumMagiC
+[VQMCMolecule](https://github.com/aromanro/VQMCMolecule): Variational Quantum Monte Carlo for a molecule, using Fokker-Planck/Langevin approach
+
+It requires quite a lot of computation power, by default now it will start for 20 threads setting, so be sure if you try it out to have enough computing power.
+
+It works quite well for atoms, better than Hartree-Fock with the same basis set. For molecules, works for diatomic ones.
+
+## QuantumMagiC (Fortran)
 
 1. After the publication of Reynolds et al. (J. Chem. Phys. 77, 5593 (1982), the Lester group began the development of a general purpose QMC code called [QuantumMagiC](http://www.cchem.berkeley.edu/walgrp/), subsequently shortened to QMagiC. This code has been the workhorse for the Lester group to date, but it will be superceded shortly by a new modular code named ZORI, currently under construction.
 
