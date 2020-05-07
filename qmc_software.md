@@ -140,14 +140,16 @@
 
 1. The program has been applied to the atomic and bulk ground state of Li and GaAs, to different models of the (110) surface of GaAs, to long-wavelength optical phonons in GaAs, and to electron-phonon coupling in GaAs.
 
-1. The program is written in Fortran and was tested on different unix platforms and network topologies. It can be used in sequential mode as well as in a highly scalable parallel version based on MPI. The package is still under construction. User's Guide [PDF](http://www.cchem.berkeley.edu/walgrp/qmc-man7.pdf), [book]()
+1. The program is written in Fortran and was tested on different unix platforms and network topologies. It can be used in sequential mode as well as in a highly scalable parallel version based on MPI. The package is still under construction. 
 
 
 ## QuantumMagiC
 
-After the publication of Reynolds et al. (J. Chem. Phys. 77, 5593 (1982), the Lester group began the development of a general purpose QMC code called [QuantumMagiC](http://www.cchem.berkeley.edu/walgrp/), subsequently shortened to QMagiC. This code has been the workhorse for the Lester group to date, but it will be superceded shortly by a new modular code named ZORI, currently under construction.
+1. After the publication of Reynolds et al. (J. Chem. Phys. 77, 5593 (1982), the Lester group began the development of a general purpose QMC code called [QuantumMagiC](http://www.cchem.berkeley.edu/walgrp/), subsequently shortened to QMagiC. This code has been the workhorse for the Lester group to date, but it will be superceded shortly by a new modular code named ZORI, currently under construction.
 
-QuantumMagiC code written by P. J. Reynolds, R. N. Barnett, B. L. Hammond, L. Terray, M. M. Soto, C. W. Greeff, J. A. W. Harkless, O. Couronne, I. Ovcharenko, A. Aspuru-Guzik, and A. Kollias.
+1. QuantumMagiC code written by P. J. Reynolds, R. N. Barnett, B. L. Hammond, L. Terray, M. M. Soto, C. W. Greeff, J. A. W. Harkless, O. Couronne, I. Ovcharenko, A. Aspuru-Guzik, and A. Kollias. 
+
+1. User's Guide [PDF](http://www.cchem.berkeley.edu/walgrp/qmc-man7.pdf), [book](https://www.amazon.com/Methods-Quantum-Chemistry-Scientific-Lecture/dp/9810203225/ref=sr_1_1?dchild=1&keywords=Monte+Carlo+Methods+In+Ab+Initio+Quantum+Chemistry&qid=1588263518&s=books&sr=1-1)
 
 ## mVMC (C)
 1. The [mVMC](https://www.pasums.issp.u-tokyo.ac.jp/mvmc/en/) is a low-energy solver for a wide ranger of quantum lattice models (multi-orbital Hubbard model, Heisenberg model, Kondo-lattice model) by using variational Monte Carlo method. User can obtain high-accuracy wave functions for ground states of above models. Users flexibly choose the correlation factors in wavefunctions such as Gutzwiller, Jastrow, and doublon-holon binding factors and optimize more the ten thousand variational parameters. It is also possible to obtain the low-energy excited states by specifying the quantum number using the quantum number projection.
