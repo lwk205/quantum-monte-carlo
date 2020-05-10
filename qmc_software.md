@@ -27,7 +27,7 @@
 
 1. Although primarily used for electronic structure problems, within QMCPACK the Hamiltonian definition is very flexible and also suited to some model systems.
 
-1. For a full description see the current documentation or [QMCPACK citation paper](https://iopscience.iop.org/article/10.1088/1361-648X/aab9c3/meta).
+1. For a full description see the current documentation or QMCPACK citation paper: [link](https://iopscience.iop.org/article/10.1088/1361-648X/aab9c3/meta), [PDF](https://arxiv.org/pdf/1802.06922.pdf).
 
 
 
