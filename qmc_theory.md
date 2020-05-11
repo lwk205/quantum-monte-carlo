@@ -44,6 +44,9 @@
 
 1. Applications of quantum Monte Carlo methods in condensed systems, Rep. Prog. Phys. volume 74, pages 026502, year 2011, [link](https://iopscience.iop.org/article/10.1088/0034-4885/74/2/026502) 
 
+1. Applications of quantum Monte Carlo methods in condensed systems, Reports on Progress in Physics, **2011**, Volume 74, Number 2, [link](https://iopscience.iop.org/article/10.1088/0034-4885/74/2/026502)
+
+
 1. Petascale computing opens up new vistas for quantum Monte Carlo, **2011**, [PDF](https://casinoqmc.net/papers/petascale_psik.pdf)
 
 1. Quantum Monte Carlo and Related Approaches, Chem. Rev. volume 112, pages 263-288, year **2012**, [link](https://pubs.acs.org/doi/10.1021/cr2001564)
@@ -55,6 +58,16 @@
 1. Quantum Monte Carlo for Noncovalent Interactions: A Tutorial Review, Acta Physica Slovaca Volume 64, Number 5, Pages 501-574, Year **2015**, [link](https://www.researchgate.net/publication/283051612_Quantum_Monte_Carlo_for_Noncovalent_Interactions_A_Tutorial_Review)
 
 1. Introduction to the variational and diffusion Monte Carlo methods, **2015**, [PDF](https://arxiv.org/pdf/1508.02989.pdf)
+
+1. Noncovalent Interactions by Quantum Monte Carlo, Chemical Review, **2016**, 116, 9, 5188-5215 [link](https://pubs.acs.org/doi/pdf/10.1021/acs.chemrev.5b00577)
+
+1. Discovering correlated fermions using quantum Monte Carlo, Reports on Progress in Physics, **2016**, vol.79, page 094501 [link](https://iopscience.iop.org/article/10.1088/0034-4885/79/9/094501)
+
+1. Development of QMCPACK for Exascale Scientific Computing, **2017**, [link](https://www.taylorfrancis.com/books/e/9781315277400/chapters/10.1201/b21930-21)
+
+1. Investigation of a Quantum Monte Carlo Protocol To Achieve High Accuracy and High-Throughput Materials Formation Energies, Journal of Chemical Theory and Computation, **2017**, volumen 13, 5, pages 1943-1951, [link](https://pubs.acs.org/doi/10.1021/acs.jctc.6b01179)
+
+1. Introduction to the Variational Monte Carlo Method in Quantum Chemistryand Physics, **2017**, [link]()
 
 1. QMCPACK: an open source ab initio quantum Monte Carlo package for the electronic structure of atoms, molecules and solids, Journal of Physics: Condensed Matter, volume 30, number 19, pages 195901, year **2018**, [link](https://iopscience.iop.org/article/10.1088/1361-648X/aab9c3/meta)
 
