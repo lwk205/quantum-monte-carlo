@@ -69,7 +69,9 @@
 
 1. Investigation of a Quantum Monte Carlo Protocol To Achieve High Accuracy and High-Throughput Materials Formation Energies, Journal of Chemical Theory and Computation, **2017**, volumen 13, 5, pages 1943-1951, [link](https://pubs.acs.org/doi/10.1021/acs.jctc.6b01179)
 
-1. Introduction to the Variational Monte Carlo Method in Quantum Chemistryand Physics, **2017**, [link]()
+1. Introduction to the Variational Monte Carlo Method in Quantum Chemistryand Physics, **2017**
+
+1. Embracing a new era of highly efficient and productive quantum monte carlo simulations, **2017**, [PDF](https://arxiv.org/pdf/1708.02645.pdf)
 
 1. QMCPACK: an open source ab initio quantum Monte Carlo package for the electronic structure of atoms, molecules and solids, Journal of Physics: Condensed Matter, volume 30, number 19, pages 195901, year **2018**, [link](https://iopscience.iop.org/article/10.1088/1361-648X/aab9c3/meta)
 
