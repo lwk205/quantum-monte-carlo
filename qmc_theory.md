@@ -32,6 +32,8 @@
 
 ## Articles
 
+1. Variational quantum Monte Carlo nonlocal pseudopotential approach to solids: Formulation and application to diamond, graphite, and silicon,  Physical Review B, **1991**, volume 43, page 9299, [link](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.42.3503) 
+
 1. Quantum Monte Carlo simulations of solids. Rev. Mod. Phys. year **2001**, volume 73, page 33, [PDF](http://altair.physics.ncsu.edu/lubos/papers/revmodphysfinal.pdf)
 
 1. Toward the Exact Solution of the Electronic Schrödinger Equation for Noncovalent Molecular Interactions:  Worldwide Distributed Quantum Monte Carlo Calculations, J. Phys. Chem. A, volume 112, pages 2104-2109, year **2008**, [link](https://pubs.acs.org/doi/10.1021/jp077592t)
