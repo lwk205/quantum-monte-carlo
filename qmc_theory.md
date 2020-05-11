@@ -10,7 +10,11 @@
 
 1. Quantum Monte Carlo Programming: For Atoms, Molecules, Clusters, and Solids, **2013**, [book](https://onlinelibrary.wiley.com/doi/book/10.1002/9783527676729), [book and source code](https://www.wiley.com/en-gb/Quantum+Monte+Carlo+Programming%3A+For+Atoms%2C+Molecules%2C+Clusters%2C+and+Solids-p-9783527408511)
 
+1. Quantum Monte Carlo Approaches for Correlated Systems, **2017**, [book](https://www.cambridge.org/core/books/quantum-monte-carlo-approaches-for-correlated-systems/EB88C86BD9553A0738BDAE400D0B2900#)
+
 1. Computational Materials Science: From Ab Initio to Monte Carlo Methods, **2018**, [book](https://www.amazon.com/Computational-Materials-Science-Initio-Methods-ebook/dp/B07CCGJRXQ/ref=sr_1_fkmr0_1?dchild=1&keywords=Monte+Carlo+Methods+In+Ab+Initio+Quantum+Chemistry&qid=1588263518&s=books&sr=1-1-fkmr0)
+
+
 
 ## PhD Thesis
 
