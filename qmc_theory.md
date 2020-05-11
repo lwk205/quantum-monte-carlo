@@ -73,6 +73,8 @@
 
 1. Embracing a new era of highly efficient and productive quantum monte carlo simulations, **2017**, [PDF](https://arxiv.org/pdf/1708.02645.pdf)
 
+1. Delayed Slater determinant update algorithms for high efficiency quantum Monte Carlo, Journal of Chemical Physics, **2017**, volumen 147, page 174107, [link](https://aip.scitation.org/doi/full/10.1063/1.4998616), [PDF](https://arxiv.org/pdf/1708.00744.pdf)
+
 1. QMCPACK: an open source ab initio quantum Monte Carlo package for the electronic structure of atoms, molecules and solids, Journal of Physics: Condensed Matter, volume 30, number 19, pages 195901, year **2018**, [link](https://iopscience.iop.org/article/10.1088/1361-648X/aab9c3/meta)
 
 1. mVMC—Open-source software for many-variable variational Monte Carlo method, Computer Physics Communications, Volume 235, year **2019**, Pages 447-462, [link](https://www.sciencedirect.com/science/article/pii/S0010465518303102)
