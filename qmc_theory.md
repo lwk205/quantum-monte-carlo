@@ -16,6 +16,8 @@
 
 1. Computational Materials Science: From Ab Initio to Monte Carlo Methods, **2018**, [book](https://www.amazon.com/Computational-Materials-Science-Initio-Methods-ebook/dp/B07CCGJRXQ/ref=sr_1_fkmr0_1?dchild=1&keywords=Monte+Carlo+Methods+In+Ab+Initio+Quantum+Chemistry&qid=1588263518&s=books&sr=1-1-fkmr0)
 
+1. Correlations and Effective Interactions from First Principles Using Quantum Monte Carlo, **2018**, [link](https://link.springer.com/referenceworkentry/10.1007%2F978-3-319-44677-6_10)
+
 
 
 
