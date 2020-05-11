@@ -16,9 +16,13 @@
 
 
 
+
+
 ## PhD Thesis
 
-1. Improved quantum Monte Carlo simulations: fromopen to extended systems, **2016**, [PDF](https://people.sissa.it/~sorella/TurboRVB_Manual/build/html/_static/02phd_thesis/dagrada.pdf)
+1. Improved quantum Monte Carlo simulations: from open to extended systems, **2016**, [PDF](https://people.sissa.it/~sorella/TurboRVB_Manual/build/html/_static/02phd_thesis/dagrada.pdf)
+
+1. Quantum Monte Carlo Studies of Strongly Correlated Systems for Quantum Simulators, **2018**, [PDF](https://www.google.pl/url?sa=t&rct=j&q=&esrc=s&source=web&cd=9&cad=rja&uact=8&ved=2ahUKEwiKy8axm6zpAhWiw4sKHVEEDHIQFjAIegQIChAB&url=https%3A%2F%2Felib.uni-stuttgart.de%2Fbitstream%2F11682%2F9955%2F1%2FDissertation_Humeniuk_Stephan.pdf&usg=AOvVaw1rXpmXrAz1jz1qTSSKW8mY)
 
 
 
